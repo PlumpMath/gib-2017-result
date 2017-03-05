@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>지브롤터 선발결과 공고</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="result.js"></script>
+  </head>
+  <body>
+    <div class="container container-table">
+      <div class="row" id="result-row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">선발결과 (<span id="text-id-info"></span>)</h3>
+            </div>
+            <div class="panel-body">
+              <h3 class="ori-hidden-text text-success" id="text-pass">축하합니다. 합격되었습니다.</h3>
+              <h3 class="ori-hidden-text text-danger" id="text-fail">합격자 명단에 없습니다.</h3>
+              <p></p>
+              <h4 class="ori-hidden-text text-margin" id="text-pass-desc"><a href="https://www.facebook.com/groups/sasagibralter">지브롤터 페이스북 그룹</a>에 가입해주세요.</h4>
+              <h4 class="ori-hidden-text text-margin" id="text-fail-desc">선발하지 못하게 되어 아쉽습니다. 수고하셨습니다. 영상부, SESCO 같은 동아리 지원을 추천드립니다.</h4>
+              <p></p>
+              <button type="button" class="btn btn-default btn-md" id="btn-return">
+                <span class="glyphicon glyphicon-home" aria-hidden="true"></span> 돌아가기
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>

@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>지브롤터 선발결과 공고</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="result.js"></script>
+  </head>
+  <body>
+    <div class="container container-table">
+      <div class="row" id="result-row">
+        <div class="col-xs-6 col-xs-offset-3">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">선발결과 조회</h3>
+            </div>
+            <div class="panel-body">
+              <h3 class="text">아래에 학번을 입력하세요.</h3>
+              <p></p>
+              <form action="result.html">
+                <div class="input-group">
+                  <span class="input-group-addon" id="basic-addon1"><span class="glyphicon glyphicon-apple" aria-hidden="true"></span></span>
+                  <input type="text" class="form-control" name="id" placeholder="학번" aria-describedby="basic-addon1">
+                </div>
+                <p></p>
+                <button type="submit" class="btn btn-default btn-md" id="btn-return">
+                  <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 조회
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
